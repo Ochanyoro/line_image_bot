@@ -42,8 +42,8 @@ def handle_message(event):
     #ai_message = talk_ai(event.message.text)
     linebot_api.reply_message(
         event.reply_token,
-        ImageSendMessage(original_content_url = 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fdol.ismcdn.jp%2Fmwimgs%2Fa%2Ff%2F-%2Fimg_afa0fad37e6c4d5ce34c01faf54f9e79108563.jpg&imgrefurl=https%3A%2F%2Fdiamond.jp%2Farticles%2F-%2F156184&tbnid=5eUbF4tC8geGtM&vet=12ahUKEwitp_ORwZ_tAhVE6ZQKHYIsAqkQMygAegUIARDWAQ..i&docid=56ZkDmQ8GXH_5M&w=1200&h=630&q=%E7%8A%AC&ved=2ahUKEwitp_ORwZ_tAhVE6ZQKHYIsAqkQMygAegUIARDWAQ',
-                         preview_image_url = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fdol.ismcdn.jp%2Fmwimgs%2Fa%2Ff%2F-%2Fimg_afa0fad37e6c4d5ce34c01faf54f9e79108563.jpg&imgrefurl=https%3A%2F%2Fdiamond.jp%2Farticles%2F-%2F156184&tbnid=5eUbF4tC8geGtM&vet=12ahUKEwitp_ORwZ_tAhVE6ZQKHYIsAqkQMygAegUIARDWAQ..i&docid=56ZkDmQ8GXH_5M&w=1200&h=630&q=%E7%8A%AC&ved=2ahUKEwitp_ORwZ_tAhVE6ZQKHYIsAqkQMygAegUIARDWAQ"))
+        ImageSendMessage(original_content_url = 'https://2.bp.blogspot.com/-L_5LpgaI7PM/XAnv87aLv0I/AAAAAAABQtA/e44wVuaan6YsaXcXLltGfifPWX2Bc9aHQCLcBGAs/s400/nigaoe_lovecraft.png',
+                         preview_image_url = "https://2.bp.blogspot.com/-L_5LpgaI7PM/XAnv87aLv0I/AAAAAAABQtA/e44wVuaan6YsaXcXLltGfifPWX2Bc9aHQCLcBGAs/s400/nigaoe_lovecraft.png"))
 
 """
 def talk_ai(word):
