@@ -15,8 +15,8 @@ import pya3rt
 app = Flask(__name__)
 
 # 環境変数
-linebot_api = LineBotApi('00rndh6ND1MSPXKA4yHtOilgY+9zKkDxRk0ICZelnDz2wuEhbVtnTg+U8V9XHIbN8lMNSG1DhGSThv/vIMh66vyAibaE3hfnC2WAZfL+lZphQlcYHM8qCa9pewHzhS1yWhyQWQw+fZCSufYuEWk6kAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('bb19322823539a5f01a8eca92c13949e')
+linebot_api = LineBotApi('yourself')
+handler = WebhookHandler('yourself')
 
 
 @app.route("/callback", methods=['POST'])
@@ -47,7 +47,7 @@ def handle_message(event):
 
 """
 def talk_ai(word):
-    apikey = "DZZcVWVGK24c5c1lm3mup4Mqi3GtlWSC"
+    apikey = "yourself"
     client = pya3rt.TalkClient(apikey)
     reply_message = client.talk(word)
     return reply_message['results'][0]['reply']
